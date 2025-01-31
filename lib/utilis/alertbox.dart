@@ -12,7 +12,11 @@ class DialogBox extends StatelessWidget {
         child: Column(
           children: [
             //get user import
-            TextField()
+            TextField(
+              decoration: InputDecoration(border: OutlineInputBorder()),
+            ),
+
+            //button -> save -> cancel
           ],
         ),
       ),
