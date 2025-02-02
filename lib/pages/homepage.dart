@@ -19,7 +19,7 @@ class _HomepageState extends State<Homepage> {
   void initState() {
     // id this is the 1st time ver opening the app then create default data
 
-    if (_myBox.get("TODoLIST") == null) {
+    if (_myBox.get("TODOLIST") == null) {
       db.createInitialData();
     } else {
       //there alreadt exist data
